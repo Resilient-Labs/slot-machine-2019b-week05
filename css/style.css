@@ -1,0 +1,106 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  color:white;
+  background-color: rgb(1 4 27);
+  font-family: 'Karla', Arial, Helvetica, sans-serif;
+
+}
+div{
+  width: 100%;
+  height: auto;
+}
+
+section{
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+#moneyYouStartWith{
+  text-align: center;
+}
+
+#play{
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  font-size: 2rem;
+  display: inline-block;
+}
+
+span{
+  font-size: 2rem;
+  display: inline-block;
+}
+
+#play{
+  height:10rem;
+  width: auto;
+  align-items: center;
+}
+
+img{
+  height:10rem;
+  width: 10rem;
+}
+
+#threeSlots{
+  width:32rem;
+  height: 11rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#theButtonsSec{
+  width: 32rem;
+  height: 3rem ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#minBet{
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Karla', Arial, Helvetica, sans-serif;
+  color: rgb(145 208 241);
+  height:2rem;
+  width: 15rem;
+  background-color: rgb(15 36 85);
+}
+
+#maxBet{
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Karla', Arial, Helvetica, sans-serif;
+  color: rgb(145 208 241);
+  height:2rem;
+  width: 15rem;
+  background-color: rgb(15 36 85);
+}
+/* button shadowhttps://www.w3schools.com/css/css3_buttons.asp*/
+
+#winnerOrLoserMsg{
+  padding-top: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
