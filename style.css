@@ -1,0 +1,49 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+ .clear {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+  background-color:gold;
+  text-align: center;
+}
+
+#slotOne,#slotTwo,#slotThree{
+ 
+  border: 4px solid black;
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding:100px
+}
+
+.reels{
+  margin: auto;
+  text-align: center;
+  margin-left: 30%;
+}
+
+#bread{
+  clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
