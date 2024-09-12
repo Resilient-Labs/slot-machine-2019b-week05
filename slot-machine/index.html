@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <section class="title">
+            <img src="img/casinoLogo.png">
+        </section>
+    </header>
+<section class="background">
+    <section class="paragraph">
+        <p class="paragraph1">Here's How To Play:</p>
+        <p class="paragraph2">Choose a bid of $5 or $50. If you win, you recieve the amount you bid. If you lose, you lose the amount you bid. Good luck!</p>
+    </section>
+
+    <section class="moneyBags">
+     <p>Balance: $<span id="money">1000</span></p>
+    </section>
+
+    <section class="reels">
+        <section id="reelOne"></section>
+        <section id="reelTwo"></section>
+        <section id="reelThree"></section>
+    </section>
+
+    <!-- <button id="play">Play</button> -->
+
+    <section class="buttons">
+        <button type="submit" id='min'>$5</button>
+        <button type="submit" id='max'>$50</button>
+    </section>
+
+    <h2 id="message"></h2>
+
+    <script src="js/main.js"></script>
+</section>
+</body>
+</html>

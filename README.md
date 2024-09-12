@@ -1,24 +1,12 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Casino Slots - Slot Machine
+Casino Slots is a slot machine web application where you start with $1000 and pick a bet of $5 or $50. If you spin and have three matching numbers, you win! 
 
-### Goal: Build a Simple Slot Machine
+**Link to project:** https://casinoslots.netlify.app/
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![alt tag](casinoNight.png)
 
-### How to submit your code for review:
+## How It's Made: 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
