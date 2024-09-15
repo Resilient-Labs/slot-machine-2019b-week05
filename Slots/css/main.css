@@ -1,0 +1,43 @@
+
+
+
+#box1, #box2, #box3{
+    font-size: 100px;
+    width: 33.33%;
+    border: 1px solid black;
+    display: inline;  
+}
+
+.container1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    word-spacing: 40px;
+    margin-top: 150px;
+}
+
+.placeBet{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    background: rgba(28, 107, 131, 0.822);
+    width: 15%;
+    height: 40px;
+    border-radius: 32px;
+    margin-left: 10px;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+button:hover{
+    color: white;
+    background: rgba(28, 148, 28, 0.74);
+}
+
