@@ -2,23 +2,24 @@
 
 ### Goal: Build a Simple Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+This is my simple slot machine project! Players can place a minimum bet of $5 or a maximum bet of $50. In addition, players can also bet all in with their money with "life bet". I have also given the option to reduce your bet amount! 
 
-### How to submit your code for review:
+<img src="slotmachine.png"></img>
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Link to live site: [https://danielmtran-slotmachine.netlify.app]
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### How It's Made:
+
+Tech used: HTML, CSS, JAVASCRIPT
+
+I made the basic styling and layout of the app via HTML and CSS. The main functionality of the app was made using Javascript.
+
+
+### Optimizations:
+
+I added additional styling to the fonts and images.
+
+
+### Lessons Learned:
+
+I would like to come back to this project and utilize arrays more in my Javascript.

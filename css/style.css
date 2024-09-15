@@ -1,0 +1,121 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 12px;
+     line-height: 1.4;
+     /* font-family: Helvetica, Arial, sans-serif; */
+     font-family: 'Rubik', sans-serif;
+     text-align: center;
+     background-color: #d2d8d6;
+     background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+}
+
+header{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+header h1{
+     font-size: 3.5rem;
+     color: white;
+     border: 0.4rem solid lightyellow;
+     width: 30%;
+}
+
+.reel-container{
+     width: 100%;
+     height: 20rem;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.status{
+     width: 100%;
+     height: 5rem;
+}
+
+.button-reset{
+     width: 100%;
+     height: 5rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.reel-one, .reel-two, .reel-three{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 25%;
+     /* border: solid red; */
+     border: 0.4rem solid lightyellow;
+     height: 15rem;
+}
+
+.instructions{
+     width: 100%;
+     height: 5rem;
+}
+
+.button-container button{
+     background: none;
+     border: solid lightyellow;
+     font-size: 1.5rem;
+     margin: 0.5%;
+}
+
+.tryAgain{
+     background: none;
+     border: solid lightyellow;
+     font-size: 1.5rem;
+     margin-left: 0.5%;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
