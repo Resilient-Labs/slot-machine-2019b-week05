@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Slot Machine! Test your luck!
+    </h1>
+   
+
+
+    <section id="result-row"><!--Results go here-->
+
+        <section id="slotcolumn1">
+            <img class="hidden" src="imgs/bomb-solid.svg" alt="">
+            <img class="hidden" src="imgs/fire-solid.svg" alt="">
+            <img class="hidden" src="imgs/heart-regular.svg" alt="">
+            <img class="hidden" src="imgs/lemon-regular.svg" alt="">
+            <img class="hidden" src="imgs/star-regular.svg" alt="">
+        </section>
+
+        <section id="slotcolumn2">
+            <img class="hidden" src="imgs/bomb-solid.svg" alt="">
+            <img class="hidden" src="imgs/fire-solid.svg" alt="">
+            <img class="hidden" src="imgs/heart-regular.svg" alt="">
+            <img class="hidden" src="imgs/lemon-regular.svg" alt="">
+            <img class="hidden" src="imgs/star-regular.svg" alt="">
+        </section>
+
+        <section id="slotcolumn3">
+            <img class="hidden" src="imgs/bomb-solid.svg" alt="">
+            <img class="hidden" src="imgs/fire-solid.svg" alt="">
+            <img class="hidden" src="imgs/heart-regular.svg" alt="">
+            <img class="hidden" src="imgs/lemon-regular.svg" alt="">
+            <img class="hidden" src="imgs/star-regular.svg" alt="">
+        </section>
+    </section>
+    
+    <div id=result-div>
+        <h2>Win Status:<span id="win-status"></span></h2>
+
+        <h2>Balance:<span id="balance-update"></span></h2>
+        <form action="">
+            <input type="button" id="min-bet" value="Min bet = 50">
+            <input type="button" id="max-bet" value="Max bet = 200">
+        </form>
+    </div>  
+
+    
+    <script src="main.js" ></script>
+</body>
+</html>
