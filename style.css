@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+body {
+    /* background-image: url(acwall.jpg); */
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.thesparkle {
+    background-image: url(sparkle.gif);
+    height: 800px;
+}
+
+.transparentbg {
+    background-color: rgba(255, 255, 255, .8);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 25px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;  
+    margin-top: 50px;
+    font-size: 60px;
+    color: rgb(246, 64, 125);
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(86, 170, 215);
+    font-weight: bold;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(164, 79, 234);
+    font-weight: bold;
+}
+
+.reels {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.inputbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    width: 250px;
+    border: 1px solid rgb(180, 114, 148)
+}
+
+button {
+    height: 40px;
+    border-radius: 5px;
+    width: 150px;
+    background-color:rgb(238, 152, 196);
+    color: rgb(185, 97, 163);
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid rgb(185, 120, 154);
+}
