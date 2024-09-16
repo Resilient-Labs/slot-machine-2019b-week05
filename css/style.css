@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+main {
+    width:60%;
+    margin: 10% 15%;
+}
+section {
+    width: 23%;
+    height: 100px;
+    margin: 0 5%;
+    float: left;
+    font-size: 5rem;
+    border: 1px solid black;
+    font-family: 'Gravitas One', cursive;
+}
+
+#slots {
+    width: 40%;
+    margin: 10px 30%;
+    border: none;
+}
+
+h1 {
+    clear: both;
+}
+
+h2 {
+    clear: both;
+}
+
+h3 {
+    clear: both;
+}
