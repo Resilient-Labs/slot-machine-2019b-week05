@@ -1,0 +1,112 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/background.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.hero {
+  width: 50%;
+  margin: 5rem auto;
+}
+
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  font-family: 'Londrina Outline', cursive;
+  color: white;
+}
+
+span {
+
+  display: block;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Londrina Outline', cursive;
+  color: white;
+}
+
+#result {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: yellow;
+  font-weight: bold;
+  font-size: 6rem;
+
+}
+
+#moneyLeft {
+  font-size: 10rem;
+  padding-bottom: 2rem;
+  color: yellow;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: -4rem;
+  text-shadow: 5px 5px #ff0000;
+
+}
+
+.container {
+  display: flex;
+}
+
+div {
+  /* width: 25%; */
+  text-align: center;
+  margin: 5rem auto;
+
+  
+}
+
+.container img {
+  height: 15em;
+  width: 15em;
+  border: 5px solid yellow;
+  border-radius: 2rem;
+
+}
+
+.btnSection {
+  text-align: center;
+  margin-top: 3rem;
+}
+.btnSection button {
+  font-size: 3rem;
+  border: none;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  color: rgba(214, 64, 55, 1);
+  border-radius: 2rem;
+  width: 15rem;
+  border: 2px solid yellow;
+
+}

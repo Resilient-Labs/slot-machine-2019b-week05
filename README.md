@@ -1,24 +1,20 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine 
 
-### Goal: Build a Simple Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+This is a slot machine application. The user starts off with $1000 and can place bets to test their luck. There are three betting options, $50, $100 and bet it all (YOLO). Match all three and win some money 💰💸
 
-### How to submit your code for review:
+**Link to project:** [https://level-ground-mockup.netlify.app/](https://slot-machinegame.netlify.app/)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+![slotmachine](https://user-images.githubusercontent.com/91163017/195223327-8903e773-4bfe-4a87-92b1-825c507e9aa2.gif)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+## How It's Made:
+
+**Tech used:** HTML, CSS and JavaScript
+
+I finished the html and css first. I had a lot of fun with the css for this project. I was able to use fonts from google fonts, applied text-shadow to the fonts to make it seem like a real casino and used images for the slots that a real slot-machine would have. 
+
+## Lessons Learned:
+
+A big part of the code for this project involved having multiple functions that preformed their own task. This project really showed me how to break up my code into different functions. 
