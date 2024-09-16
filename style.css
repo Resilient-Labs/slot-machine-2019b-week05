@@ -1,0 +1,16 @@
+.slot1, 
+.slot2,
+ .slot3{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  float: left;
+  display: inline;
+}
+.controlBar{
+  width: 609px;
+  height: 150px;
+  border: 2px solid black;
+  clear: both;
+}
+}
