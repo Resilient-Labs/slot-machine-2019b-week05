@@ -1,24 +1,14 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# slot-machine-2019-week05
 
-### Goal: Build a Simple Slot Machine
+## Retro Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+Play the slots on this retro machine. Place your bet of $5 or $50; if you win, you'll receive 10 times your bet, lose and you'll lose the amount of your bet. If your balance goes down to zero, it's game over.
 
-### How to submit your code for review:
+<img src="https://roxanalemus.com/images/retroMachine.png" max-width="100%">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Tech used: HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Javascript is at the core of this project. Implementation of the retro machine uses functional programming. You place a bet, of either $5 or $50, and the algorithm randomizes options 1-5 within the three reels. A conditional statement then compares the value of the three slots. Matching values in all three slots results in an increase of 10 times your bet. Otherwise, the dollar amount in your wallet decreases by the amount of your bet.
+
+Want to see a live demo? <a href="https://roxanalemus.com/mywork/slotmachine/retromachine" target="_blank">Click here</a>.
+

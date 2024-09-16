@@ -1,0 +1,138 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+/*Leon doesn't like this*/
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+     color: rgba(15,122,135,1);
+     text-shadow: -1px 1px 0 #FFF,;
+     font-size: 2em;
+     /* line-height: 1.4; */
+     /* font-family: 'Callie Chalk Font', sans-serif; */
+     font-family: "monoton";
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     background-color: rgba(15,122,135,1);
+}
+
+main{
+     width: 45%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-image: url("/Users/resilientcoders/Desktop/Resilient Coders/Work/Current - Week 5/slotmachine/mainBackground.png");
+     background-size: 100% 100%;
+     background-position: center;
+     border: 30px solid rgba(239, 92, 49, 1);
+     border-style: double;
+     border-radius: 12px;
+}
+
+h1{
+     font-size: 1.5em;
+     margin: 5% 0 2% 0;
+}
+
+.walletParagraph{
+     color: rgba(20,40,63,1);
+}
+
+#message{
+     color: rgba(161,30,20,1);
+     font-size: 1.25em;
+}
+
+p{
+     margin: 0 0 2% 0;
+}
+
+#slotContainer{
+     display: flex;
+     flex-direction: row;
+}
+
+.slot{
+     font-size: 2em;
+     padding-top: 70px;
+     text-align: center;
+     width: 200px;
+     height: 200px;
+     background-color: rgba(251,214,160,1);
+     border: 5px solid rgba(189,33,21,1);
+     border-radius: 12px;
+     margin: 0 10px 15px 10px;
+     float: left;
+}
+
+#buttons{
+     width: 45%;
+     margin-right: auto;
+     margin-left: auto;
+     padding: 15px 0;
+     background-image: url("/Users/resilientcoders/Desktop/Resilient Coders/Work/Current - Week 5/slotmachine/mainBackground.png");
+     background-size: 100% 180%;
+     background-position: center;
+     border: 30px solid rgb(201, 184, 115);
+     border-style: double;
+     border-radius: 12px;
+     clear: both;
+}
+
+section > button{
+     color: rgba(15,122,135,1);
+     margin-top: 25px;
+     height: 10vh;
+     width: 20%;
+     border-radius: 12px;
+}
+
+#fiver, #fiftyCent{
+     background-color: rgb(226, 190, 128, 1);
+     /* border: 5px solid rgba(149,210,68,1); */
+     border: 5px solid rgba(205, 26, 25, 1);
+     border-radius: 12px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
