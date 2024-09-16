@@ -1,24 +1,17 @@
 # 🎰 Week05 Bootcamp2019 Project: Slot Machine
 
-### Goal: Build a Simple Slot Machine
+The goal of this project was to make a slot machine with minimum 5 items per reel and 3 reels and allow the user to be able to bet min or max and have their total update
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+This project involved using Javascript to manipluate the dom and make the website interactive.
 
-### How to submit your code for review:
+My next goal for this project is to add css 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+link to Slot Machine
+https://burhan-ali-slotmachine.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+![](SlotScreenShot.png)
+
+
+
+
