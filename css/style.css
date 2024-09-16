@@ -1,0 +1,153 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  width: 150px;
+  height: 30px;
+}
+
+h1{
+  background-color: rgb(0,160,196);
+  box-shadow: 0px 9px 23px 16px rgb(88,218,255);
+  color: rgb(255,13,154) ;
+  margin: 20px 0 20px 30px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.console{
+  color: black;
+  background-color:rgb(3,71,183);
+  border:5px dotted rgb(6,237,0);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0px 9px 23px 16px rgb(88,218,255);
+  width: 535px;
+  margin: 0;
+  display: flex;
+
+}
+
+body{
+  padding: 40px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-image: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+
+
+ 
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5% / 50%;
+  background: linear-gradient(rgb(255,1,151), rgb(88,218,255), rgb(88,218,255), rgb(255,1,151));
+}
+
+
+.bigContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/images/slotmachine.png");
+  background-position: center;
+  background-size: 100% 100%;
+  width: 600px;
+  height: 600px;
+}
+
+.spiner{
+  margin: 0 65px 70px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-radius: 5% / 50%;
+  padding: 0 18px;
+  background: linear-gradient(rgb(255,1,151), rgb(88,218,255), rgb(88,218,255), rgb(255,1,151));
+  box-shadow: 0px 9px 23px 16px rgb(88,218,255);
+}
+
+.topy{
+  transform: perspective(10px) rotateX(1deg);
+}
+.bottom{
+  transform: perspective(10px) rotatex(-1deg);
+}
+.middle{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin: 30px 0;
+  height: 100px;
+}
+
+button{
+  background-image: url("/images/coin.png");
+  background-size: 100% 100%;
+  text-decoration: center;
+  width: 90px;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: gold;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
