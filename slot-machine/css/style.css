@@ -1,0 +1,91 @@
+html{
+  background-image: url(../images/back.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  font-family: 'MinecrafterAltRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  color: yellow;
+  font-size: 2rem;
+}
+
+.header, .player{
+  width: 100%;
+}
+
+
+#reel1, #reel2, #reel3{
+  height: 300px;
+  width: 30%;
+  float: left;
+}
+
+img{
+  max-width: 100%;
+  max-height: 90%;
+}
+
+.buttonsBet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.run{
+  font-family: 'MinecrafterAltRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.displayReels{
+  display: inline-block;
+  width:  100%;
+  overflow: auto;
+  height: 300px;
+}
+
+button{
+  height: var(--btn-size);
+  padding: 1%;
+  margin: 2%;
+	width: calc(var(--btn-size) * 10);
+	cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	user-select: none;
+	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+	image-rendering: pixelated;
+	border: 2px solid #000;
+/* this code was copied from https://codepen.io/joexmdq/pen/EOMLzg */
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 320px){
+  .run{
+    font-size: 13px;
+  }
+  .displayReels{
+    height: 124px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 500px){
+  *{
+    font-size: 21px;
+  }
+  .run{
+    font-size: 14px;
+  }
+  .displayReels{
+    height: 124px;
+  }
+}
