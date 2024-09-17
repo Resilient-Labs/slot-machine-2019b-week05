@@ -1,24 +1,18 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Game of Thrones Slot Machine
 
-### Goal: Build a Simple Slot Machine
+### Description
+- This slot machine has 3 reels, with 9 items per reel.
+- Users start off with 1000 coins. They can bet the minimum (5) or maximum (50) amount of coins and have their total update. Upon using up the coins, the slot machine no longer runs. Of course, you can refresh and play again!
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+<img src="slot-machine.png">
 
-### How to submit your code for review:
+### Tech Used
+- HTML
+- CSS
+- JavaScript
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Lessons Learned
+- Difference between innerText and innerHTML
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+### Notes
+Game of Thrones is my favorite TV show, so I am absolutely IN LOVE with this project. I hope you have as much fun playing it as I had creating it! 🥳
