@@ -1,0 +1,43 @@
+
+    <!-- //Build a simple slot machine with minimum 5 items per reel and 3 reels
+//- user should be able to bet min $5 or max $50 and have their total update
+//aka how much money they have won or lost.
+//They should start with $1000. Matches of the three wheels = a win just like a
+// normal slot machine and they win 10x their bet -->
+
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="slotmachine.css">
+  </head>
+  <body>
+    <p class="rules">3 DUCK = WIN</p>
+    <p class="rules">3 FROG = WIN</p>
+    <p class="rules">3 ZEBRA = WIN</p>
+    <p class="rules">3 COW  = WIN</p>
+    <p class="rules">3 DOG = WIN</p>
+
+    <section id="reel-1" class="reel">X</section>
+    <section id="reel-2" class="reel">X</section>
+    <section id="reel-3" class="reel">X</section>
+
+
+    <button type="button" name="5dollars" class="bet" >$5</button>
+    <button type="button" name="50dollars" class="bet" ">$50</button>
+    <p id="outcome"></p>
+
+
+
+    <div class="money">
+    <h2>Money</h2>
+    <h3 id="amount">$1,000</h3>
+    </div>
+
+    <script type="text/javascript" src="slotmachine.js">
+    </script>
+  </body>
+</html>

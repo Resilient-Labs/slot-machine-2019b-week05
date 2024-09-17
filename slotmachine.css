@@ -1,0 +1,40 @@
+body {
+  padding: 2% 10%;
+  text-align: center;
+}
+
+.rules {
+  float:left;
+  width: 15%;
+}
+
+.rules:first-child {
+  padding-left: 12%;
+}
+
+.reel {
+  float: left;
+  width: 28%;
+  height: 400px;
+  margin-left: 5%;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  font-size: 50px;
+}
+
+.reel:first-of-type {
+  margin-left: 2%;
+}
+
+button, input{
+  clear:both;
+  display: block;
+  width: 28%;
+  margin-left: 35%;
+  margin-bottom: 15px;
+  height: 30px;
+}
+
+button {
+  margin-left: 35.2%;
+}
