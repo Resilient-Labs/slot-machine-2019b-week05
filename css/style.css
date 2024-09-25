@@ -1,0 +1,195 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: Helvetica, Arial, sans-serif;
+	background: url('../img/casino.png');
+	background-size: cover;
+}
+
+.bodyCont {
+	max-width: 1000px;
+	top: 10%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid orange;
+	background: url('../img/gambling.png');
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+p {
+	align-self: center;
+	font-size: 100px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.reelContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	border: 8px solid gold;
+	background: url('../img/slotBackground.png');
+	width: 80%;
+	padding: 50px 10px 50px 10px;
+	box-shadow: 0px 0px 10px 5px rgb(44, 44, 44);
+	border-radius: 10px;
+}
+
+.reel {
+	height: 200px;
+	width: 200px;
+
+	background: url('../img/goldDollar.png');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 10px 5px gold;
+}
+
+.btnCont {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+	align-self: center;
+	margin-top: 40px;
+}
+
+.winner {
+	background: url('../img/winner.png');
+	background-size: cover;
+	box-shadow: 0px 0px 10px 5px green;
+}
+.loser {
+	background: url('../img/loser.png');
+	background-size: contain;
+	box-shadow: 0px 0px 10px 5px red;
+}
+
+.betBtn {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background: rgb(253, 221, 24);
+	color: rgb(218, 147, 0);
+	box-shadow: inset 0px 0px 2px 3px goldenrod;
+	border: none;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.winnings {
+	background: url('../img/dollars.png');
+	width: 50%;
+	text-align: center;
+	color: gold;
+	text-shadow: 2px 3px goldenrod;
+	border-radius: 50px;
+	border: 4px solid gold;
+	box-shadow: 0 0 5px 5px goldenrod;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.flashGold {
+	animation: blinkGold 1s linear infinite;
+}
+
+@keyframes blinkGold {
+	0%,
+	49% {
+		box-shadow: 0px 0px 10px 5px gold;
+	}
+	50%,
+	100% {
+		box-shadow: 0px 0px 10px 5px goldenrod;
+	}
+}
+
+.flashDelay {
+	animation: blinker 0.5s linear 9.6;
+}
+
+@keyframes blinker {
+	0% {
+		background: url('../img/loser.png');
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px red;
+		background-size: contain;
+	}
+	25% {
+		/* background: url('../img/loser.png'); */
+		background: red;
+
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px red;
+		background-size: contain;
+	}
+	50% {
+		/* background: url('../img/loser.png'); */
+		background: red;
+
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px red;
+		background-size: contain;
+	}
+	75% {
+		/* background: url('../img/loser.png'); */
+		background: rgb(234, 6, 255);
+		border: 3px solid #e50000;
+		box-shadow: 0px 0px 10px 5px green;
+		background-size: contain;
+	}
+	100% {
+		background: url('../img/winner.png');
+		box-shadow: 0px 0px 10px 5px green;
+		border: 3px solid rgb(117, 209, 63);
+		background-size: cover;
+	}
+}
