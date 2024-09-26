@@ -1,0 +1,46 @@
+* {
+    font-family: Karla;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url("https://i.postimg.cc/J7swzzW8/Purple-And-White-Neon-Modern-Jamboard-Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slot-images, h1, h2{
+    text-align:center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+.slot-images{
+    margin-top: 0
+}
+
+button{
+    /* padding: 10px; */
+    margin: 20px auto;
+    border: 3px dashed rgb(157, 0, 235);
+    display: inline-block;
+}
+
+.bets {
+    padding-left: 500px;
+}
+
+.logo{
+    padding-left: 500px;
+}
