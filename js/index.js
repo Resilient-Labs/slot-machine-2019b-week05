@@ -24,14 +24,12 @@ function betFive() {
     currentBet = 5;
     betFiveBtn.classList.toggle("hover");
     betFiftyBtn.classList.remove("hover");
-    console.log(currentBet);
 }
 
 function betFifty() {
     currentBet = 50;
     betFiftyBtn.classList.toggle("hover");
     betFiveBtn.classList.remove("hover");
-    console.log(currentBet);
 }
 
 function spin() {
@@ -42,45 +40,50 @@ function spin() {
     }
     else {
         warning.textContent = "";
-        
-        //subtract the currentBet from totalWins
-        totalWins -= currentBet; 
-        //randomly pick a choice and display in reel1 
-        const randomChoice1 = Math.floor(Math.random() * 6);
-        const tree1 = trees[randomChoice1]; 
-        //take off any previously assigned classes/tree
-        //if classList[0] exists it will be removed
-        //if it doesnt nothing happens
-        
-        img1.classList.toggle(img1.classList[0]);
-        img1.classList.add(tree1);
-        console.log({ after: img1.classList });
-    
-        //reel2 
-        const randomChoice2 = Math.floor(Math.random() * 6);
-        const tree2 = trees[randomChoice2]; 
-        img2.classList.toggle(img2.classList[0]);
-        img2.classList.add(tree2);
-    
-        //reel3
-        const randomChoice3 = Math.floor(Math.random() * 6);
-        const tree3 = trees[randomChoice3];
-        img3.classList.toggle(img3.classList[0]);
-        img3.classList.add(tree3);
-      
-        if (tree1 === tree2 && tree2 === tree3) {
+        //if totalwins 
+        if (totalWins > 0) {
+            //subtract the currentBet from totalWins
+            totalWins -= currentBet;
+            //randomly pick a choice and display in reel1
+            const randomChoice1 = Math.floor(Math.random() * 6);
+            const tree1 = trees[randomChoice1];
+            //take off any previously assigned classes/tree
+            //if classList[0] exists it will be removed
+            //if it doesnt nothing happens
+
+            img1.classList.toggle(img1.classList[0]);
+            img1.classList.add(tree1);
+            console.log({ after: img1.classList });
+
+            //reel2
+            const randomChoice2 = Math.floor(Math.random() * 6);
+            const tree2 = trees[randomChoice2];
+            img2.classList.toggle(img2.classList[0]);
+            img2.classList.add(tree2);
+
+            //reel3
+            const randomChoice3 = Math.floor(Math.random() * 6);
+            const tree3 = trees[randomChoice3];
+            img3.classList.toggle(img3.classList[0]);
+            img3.classList.add(tree3);
+
+            if (tree1 === tree2 && tree2 === tree3) {
             //multiply the currentBet by the 'tree factor'
             //add that to totalWins
-            currentWin = currentBet * 2; 
-            totalWins += currentWin;
-             
+                currentWin = currentBet * 2;
+                totalWins += currentWin;
+            } else {
+                currentWin = -currentBet;
+            }
+
+            currentRoundDisplay.innerText = currentWin;
+            totalCashDisplay.innerText = totalWins;
         }
         else {
-            currentWin = -currentBet; 
+            return; 
         }
         
-        currentRoundDisplay.innerText = currentWin;
-        totalCashDisplay.innerText = totalWins; 
+        
     }
     
 }
