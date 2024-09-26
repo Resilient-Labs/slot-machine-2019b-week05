@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Slot Machine</title>
+</head>
+<body>
+    <h1>Slot Machine</h1><br>
+   <h3>You have $500, Choose your bet! <br>
+    If you see three of the same image your bet amount will be doubled and added into your money count. <br> 
+    Each loss subtracts your bet amount from your money count. If you have no money to bet, restart!</h3>
+    <section class="topSect">
+   
+        <section class="bG1"> 
+            <img id="bG1Img" src="blackG1.jpg" alt="">
+        </section>
+   
+    
+        <section class="bG2"> 
+            <img id="bG2Img" src="blackG2.jpg" alt="">
+        </section>
+  
+   
+        <section class="bG3"> 
+            <img id="bG3Img" src="blackG3.jpg" alt="">      
+         </section>
+</section>
+
+    <section class="bottomSect">
+        <button class="btn1" type="button">Bet 5</button>
+        <button class="btn2" type="button">Bet 50</button>
+        <button class="btn3" type="button">Bet 100</button>
+    </section>
+    <section class="money">
+        <h2 id="h1"></h2>
+        <button id="restart" type="submit">Restart</button>
+    </section>
+    
+    
+    <script src="JS/main.js"></script>
+</body>
+</html>

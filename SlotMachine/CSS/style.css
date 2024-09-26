@@ -1,0 +1,53 @@
+
+body{
+    background-image: url('backGround.jpg');
+    background-position: cover;
+    background-size: 150%;
+}
+img{
+    border-radius: 25%;
+    width: 200px;
+    height: 250px;
+    margin: -1%;
+}
+h1{
+    padding-top: 10%;
+}
+h1, h3{
+    text-align: center;
+}
+h3{
+    color: rgb(23, 69, 79);
+}
+.topSect{
+    
+    display: flex;
+    justify-content: center;
+}
+.bg1{
+    display: flex;
+    flex-direction: column;
+}
+.bg2{
+    display: flex;
+    flex-direction: column;
+}
+.bg3{
+    display: flex;
+    flex-direction: column;
+}
+.bottomSect{
+    display: flex;
+    justify-content: center;
+}
+.money{
+    text-align: center;
+}
+button{
+border-radius: 5%;
+background-color: pink;
+}
+button:hover{
+    
+    background-color: rgb(192, 212, 255);
+    }
