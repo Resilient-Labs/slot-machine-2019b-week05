@@ -1,24 +1,16 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot machine project
+This project is a virtual slot machine game. It's meant to give the user a virtual experience of playing the slot machine without "gambling".
 
-### Goal: Build a Simple Slot Machine
+**Link to project:** https://brave-khorana-a2e892.netlify.com/
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![alt tag](https://github.com/TimTran-Dev/slot-machine-2019-week05/blob/answer/Screen%20Shot%202019-10-17%20at%202.14.36%20PM.png)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+First I used HTML to create 4 sections. 3 of them are assigned to the reels and the 4th section is used to contain the buttons and the total amount for the user. Next I used JavaScript to create the functionaility of how the game operates. Next, I used CSS to style the game to give it a more friendly user experience.
+
+## Lessons Learned:
+you can return a function in another function by assigning a variable to the original function name.
+I also learned that you can multiply math.random by a number to increase the range above 0-1.

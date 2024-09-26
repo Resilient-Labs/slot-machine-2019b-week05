@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  background-image: url(https://i.pinimg.com/originals/25/15/d8/2515d834224b0a1315a628b56f862ced.jpg);
+  background-size: 100%;
+}
+body {
+  font-size: 10px;
+}
+section {
+  border: 1px solid black;
+  height: 220px;
+  width: 20%;
+  float: left;
+  margin:10% 5% 0 0;
+  background-size: 100%;
+}
+section img {
+  width: 100%;
+}
+section:first-of-type{
+  margin-left: 15%;
+}
+button{
+  float: left;
+  margin-left: 20%;
+  padding: 5%;
+  border-radius: 5px;
+  margin-bottom: 10%;
+}
+.wager-buttons{
+  margin-left: 40%;
+  margin-top: 3%;
+}
+p{
+  font-size: 1rem;
+  color: white;
+}
+#result {
+  margin-left: 5%;
+  font-size: 1.5rem;
+}
+#money{
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
+  margin-left: 5%;
+}
