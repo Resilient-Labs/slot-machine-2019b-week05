@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+/* dausihnk */
+.header{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1484069560501-87d72b0c3669?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size:cover;
+    color: white;
+}
+
+.machineBox{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* find images that our the same sizes */
+img{
+    height:50%;
+    width:50%;
+    border-radius: 44% 25%;
+}
+
+#slot1, #slot2, #slot3{
+    flex: 1;
+    border: 1px black dotted;
+}
+/* .borders{
+    flex: 2;
+    background: linear-gradient(#e66465, #9198e5);
+} */
+
+#resultBox{
+    width: 100%;
+    height: 100px;
+    /* border: black solid 1px; */
+}
+
+#youLost, #youWon{
+    font-size: 3rem;
+}
