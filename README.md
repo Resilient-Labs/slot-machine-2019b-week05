@@ -1,24 +1,22 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰  Slot Machine
 
-### Goal: Build a Simple Slot Machine
+A slot machine that tracks amount of money won from betting and the losses from betting. 
+Check out my project here: 
+https://keen-treacle-6ea8c8.netlify.app
+![image](https://user-images.githubusercontent.com/112406976/193353168-fd2cdeb0-e519-408b-a9fc-727c0cc804b7.png)
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+# How It's Made 
+Tech used: HTML, CSS, JavaScript 
 
-### How to submit your code for review:
+Worked with HTML, CSS, JavaScript to build this project. It takes an input from the user in HTML. 
+The Javascript is set up to take the input from the DOM. Then the button within the DOM will take the
+behaviour from the javascript. Randomize the slot reels and give a value to what the user landed on 
+within the machine. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+# What I learned 
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project taught me many different things about javascript. I learned that javascript can read
+directory paths and can pull data from them. This could be pictures, videos, etc. I also learned
+about using conditional statements and how much they can change your code for specific instances. 
+
+

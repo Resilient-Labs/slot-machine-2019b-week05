@@ -1,0 +1,179 @@
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+/* button generator */
+.myButton {
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #fafafa;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	animation: blinkBackground 5s infinite;
+}
+/* stack overflow animation */
+
+
+
+@keyframes blinkBackground {
+    
+    0% {
+        background-color:  black;
+    }
+
+    20% {
+        background-color: rgb(230, 178, 186);
+    }
+
+    40% {
+        background-color:yellow;
+    }
+
+    60% {
+        background-color: steelblue;
+    }
+
+    80% {
+        background-color: greenyellow;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: pink;
+    }
+
+    40% {
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: steelblue;
+    }
+
+    80% {
+        background-color: greenyellow;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+
+@keyframes blink {
+    
+    0% {
+        border: 7px solid red;
+        border-radius: 4px;
+    }
+
+    20% {
+        border: 7px solid pink;
+        border-radius: 4px;
+    }
+
+    40% {
+        border: 7px solid yellow;
+        border-radius: 4px;
+    }
+
+    60% {
+        border: 7px solid steelblue;
+        border-radius: 4px;
+    }
+
+    80% {
+        border: 7px solid greenyellow;
+        border-radius: 4px;
+    }
+
+    100% {
+        border: 7px solid red;
+        border-radius: 4px;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        border: 7px solid red;
+        border-radius: 4px;
+    }
+
+    20% {
+        border: 7px solid pink;
+        border-radius: 4px;
+    }
+
+    40% {
+        border: 7px solid yellow;
+        border-radius: 4px;
+    }
+
+    60% {
+        border: 7px solid steelblue;
+        border-radius: 4px;
+    }
+
+    80% {
+        border: 7px solid greenyellow;
+        border-radius: 4px;
+    }
+
+    100% {
+        border: 7px solid red;
+        border-radius: 4px;
+    }
+}
+
+.slotRows {
+    display: flex;
+    justify-content: center;
+}
+
+.slotRow1 {
+    display: flex;
+    flex-direction: column;
+    animation: blink 5s infinite;
+}
+
+.slotRow2 {
+    display: flex;
+    flex-direction: column;
+    animation: blink 5s infinite;
+    
+}
+
+.slotRow3 {
+    display: flex;
+    flex-direction: column;
+    animation: blink 5s infinite;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttonRow {
+    display: flex;
+    justify-content: center;
+}
+
