@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-size: 62.5%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.layout {
+    margin: auto auto;
+    margin: 1%;
+
+}
+
+.heading {
+    margin: 0 auto;
+    height: 50px;
+    width: 84.7%;
+    border: 3px solid;
+    font-size: 7rem;
+    background: white;
+    font-weight: 700;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.actualHone {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resultArea {
+    height: 700px;
+    width: 85%;
+    background: rgb(0, 0, 0);
+    border: 5px solid black;
+    display: flex;
+    margin: 0 auto;
+    border: 30px;
+ 
+}
+
+.boxOne {
+    background-image: url("/img/meek.jpg");
+    filter: grayscale();
+}
+
+.boxTwo {
+    background-image: url("/img/billie.webp");
+    filter: grayscale();
+}
+
+.boxThree {
+    background-image: url("/img/tyga.webp");
+    filter: grayscale();
+}
+
+.boxOne:hover {
+    background-image: url("/img/meek.jpg");
+    filter: grayscale(0);
+}
+
+.boxTwo:hover {
+    background-image: url("/img/billie.webp");
+    filter: grayscale(0);
+}
+
+.boxThree:hover {
+    background-image: url("/img/tyga.webp");
+    filter: grayscale(0);
+}
+
+
+.boxOne, .boxTwo, .boxThree {
+    width: 33%;
+    border: 1px solid;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 2% 3%;
+    border-radius: 30px;
+ 
+
+}
+
+
+
+.totalArea {
+    height: 100px;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    background: rgb(0, 0, 0);
+
+    
+}
+
+.totalAmount {
+    height: 70%;
+    width: 30%;
+    border: 5px solid rgb(255, 255, 255);
+    display: flex;
+    color: white;
+    border-radius: 15px;
+    font-size: 7rem;
+ 
+    background: rgb(0, 0, 0, 0.75);
+    margin: 0 auto;
+   
+}
+.totalAmount span {
+    margin: auto auto;
+}
+.buttonArea {
+    height: 70px;
+    width: 85%;
+    border-top: 2px solid rgb(255, 255, 255);
+    background: rgb(0, 0, 0, 0.85);
+    display: flex;
+    margin: 0 auto;
+    font-size: 6rem;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  
+}
+form {
+    height: 70px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 1%;
+ 
+    display: flex;
+    flex: 2;
+
+}
+button {
+    height: 60%;
+    width: 25%;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+
