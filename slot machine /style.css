@@ -1,0 +1,43 @@
+
+body{
+background-image: url(./images/wallhaven-49ydr8.png);
+}
+
+.wholePage{
+  border:2px solid white;
+  text-align: center;
+  width:50%;
+  height:42rem;
+  margin-left: 25%;
+  background:white;
+}
+
+.bet{
+  padding:2%;
+}
+
+.money{
+  color:green;
+  font-size:2rem;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.update{
+  font-size:4rem;
+  color:#b69c9b;
+  font-family:'Shadows Into Light', cursive;
+}
+
+.game{
+  display:inline-block;
+  color:black;
+  width:20%;
+  height:10rem;
+  font-size:8rem;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.newGame{
+  margin-top: 6rem;
+  padding: 2%;
+}
