@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Slot  Machine</h1>
+    </header>
+    <section class="slotContainer">
+        <section class="slot">
+            <img id="leftImg" src="css/images/mario.gif" alt="">
+        </section>
+        <section class="slot">
+            <img id="midImg"  src="css/images/mario.gif" alt="">
+        </section>
+        <section class="slot">
+            <img id="rightImg" src="css/images/mario.gif" alt="">
+        </section>
+    </section>
+    <section class="buttons">
+        <button id="bet5" value="5">Min Bet:$5</button>
+        <button id="bet10" value="10">$10</button>
+        <button id="bet20" value="20">$20</button>
+        <button id="bet50" value="50">$50</button>
+        <button id="bet100"value="100">Max Bet:$100</button>
+    </section>
+    <section class="money">
+        <h2 id="amount">Current Amount:$ <span id="placeToSee"></span></h2>
+        <h2 id="betAmt">Current Bet:$ <span id="placeToSee2"></span></h2>
+        <button id="startOver"><a href ="index.html"> Start Over</a></button>
+        <h3 id="check" class="misc"></h3>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
