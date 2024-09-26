@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>slot machine</title>
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Slot Machine</h1>
+  </header>
+  <main>
+    
+    <section class="cashInfo">
+      <section>
+        <h2>Total Cash: <span class="cashDisplay totalDisplay">2000</span></h2> 
+      </section>
+      <section>
+        <h2>Current Round: <span class="cashDisplay currentDisplay">0</span></h2>
+        
+      </section>
+    </section>
+    <section class="reels">
+      <section class="reel">
+        <img class="pine" id="reel1"  alt=""></section>
+      <section class="reel">
+        <img class="mediumTree"  id="reel2"  alt=""></section>
+      <section class="reel">
+        <img class="seed" id="reel3"  alt=""></section>
+    </section>
+    <section class="betAndPlay">
+      <section class="buttons">
+        <button id="bet5">Bet 5</button>
+        <button id="bet50">Bet 50</button>
+      </section>
+      <section class="buttons">
+        <p id="placeBetFirst"></p>
+        <button id="spinBtn">SPIN</button>
+      </section>
+
+    </section>
+  </main>
+  <section class="payoutTable hidden">
+    <h1>Payout Table</h1>
+    <!-- 3 willows 500 -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/willowTree.png" alt="willow tree icon">
+        <img src="media/willowTree.png" alt="willow tree icon">
+        <img src="media/willowTree.png" alt="willow tree icon">
+      </div>
+
+      <h2>500 * bet</h2>
+
+
+    </section>
+    <!-- 2 willows 300 -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/willowTree.png" alt="willow tree icon">
+        <img src="media/willowTree.png" alt="willow tree icon">
+        <!-- <h2 class="anyTree">ANY TREE</h2> -->
+      </div>
+
+      <h2>300 * bet</h2>
+
+    </section>
+    <!-- 1 willow 100 -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/willowTree.png" alt="willow tree icon">
+        <!-- <h2 class="anyTree">ANY TREE</h2>
+        <h2 class="anyTree">ANY TREE</h2> -->
+      </div>
+      <h2>100 * bet</h2>
+    </section>
+    <!-- 3 medium 50 -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/mediumTree.png" alt="green tree icon">
+        <img src="media/mediumTree.png" alt="green tree icon">
+        <img src="media/mediumTree.png" alt="green tree icon">
+      </div>
+      <h2>50 * bet</h2>
+    </section>
+    <!-- 3 birch 25 -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/birch.png" alt="green tree icon">
+        <img src="media/birch.png" alt="green tree icon">
+        <img src="media/birch.png" alt="green tree icon">
+      </div>
+      <h2>25 * bet</h2>
+    </section>
+    <!-- 2 medium 20  -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/mediumTree.png" alt="green tree icon">
+        <img src="media/mediumTree.png" alt="green tree icon">
+        <!-- <h2 class="anyTree">ANY TREE</h2> -->
+      </div>
+      <h2>20 * bet</h2>
+    </section>
+
+    <!-- 3 pine 10 -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/pine-tree.png" alt="pine tree icon ">
+        <img src="media/pine-tree.png" alt="pine tree icon ">
+        <img src="media/pine-tree.png" alt="pine tree icon ">
+      </div>
+
+      <h2>10 * bet</h2>
+
+
+    </section>
+
+    <!-- 3 saplings 5  -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/sapling.png" alt="sapling icon ">
+        <img src="media/sapling.png" alt="sapling icon ">
+        <img src="media/sapling.png" alt="sapling icon ">
+      </div>
+      <h2>5 * bet</h2>
+    </section>
+    <!-- 3 seeds 2  -->
+    <section class="row">
+      <div class="imageContainer">
+        <img src="media/seed.png" alt="seed icon">
+        <img src="media/seed.png" alt="seed icon">
+        <img src="media/seed.png" alt="seed icon">
+      </div>
+      <h2>2 * bet</h2>
+    </section>
+  </section>
+  <footer>
+    <p>Images courtesy of <a href="https://www.flaticon.com" target="_blank">https://www.flaticon.com</a>
+    </p>
+    <p>Made by <a href="https://github.com/trialnerr" target="_blank">Bongi Sibanda</a> with ❤️ </p>
+  </footer>
+
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

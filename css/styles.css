@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+ :root {
+   --border-green: rgb(211, 247, 211);
+   --headerColor: #50C878;
+   --header2Color: #81c698;
+   --backgroundColor: #2c1403;
+   --textColor: white;
+   --accentColor: #7CFC00;
+   --buttonHover: #7CFC00;
+   --buttonBackground: #3e8e41;
+   --grey: grey;
+   --spinBtnColor: #FFD700;
+   --spinBtnHover: #f2ff00;
+ }
+
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background: var(--backgroundColor);
+   color: var(--textColor)
+ }
+
+ a {
+
+   color: inherit;
+ }
+
+ main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* padding: 2rem; */
+   margin-bottom: 2rem;
+ }
+
+ h1,
+ h2 {
+   text-align: center;
+   color: var(--headerColor);
+   padding: 0.5rem;
+   margin: 0;
+ }
+
+header h1, .payoutTable h1{
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6rem;
+  margin: 0;
+}
+
+ h2 {
+   color: var(--header2Color);
+ }
+
+
+ /* question: How do i take care of the overlap error on smaller widths without media queries. Is that possible?  /*/
+
+ .payoutTable {
+   width: clamp(300px, 60%, 800px);
+   min-width: 300px;
+   margin: 0 auto;
+   border: 1px solid var(--border-green);
+   border-radius: 8px;
+
+   & h1 {
+     border-bottom: 1px solid var(--border-green);
+     padding: 1rem;
+    font-size: 3rem;
+   }
+ }
+
+ .row {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   gap: 1rem;
+   border-bottom: 1px solid var(--border-green);
+
+   & img {
+    width: 10%;
+    height: 50px;
+    object-fit: contain;
+    max-width: 50px;
+   }
+
+   & h2 {
+
+     display: flex;
+     align-items: flex-end;
+     padding: 0.5rem;
+
+   }
+ }
+
+ .row:last-of-type {
+   border-bottom: 0px;
+ }
+
+ .imageContainer {
+   display: flex;
+   gap: 2rem;
+   padding: 0.5rem 2rem;
+   margin-right: 1rem;
+
+ }
+
+ .buttons {
+   display: flex;
+   gap: 1rem;
+   justify-content: center;
+   margin: 1rem 0;
+ }
+
+ button {
+   background: var(--buttonBackground);
+   color: white;
+   padding: 0.75rem 1.5rem;
+   border-radius: 8px;
+   border: none;
+   font-size: 1.2rem;
+ }
+
+ /* button:hover {
+   background: var(--buttonHover);
+ } */
+
+ .hover{
+  background: var(--buttonHover);
+ }
+
+ #spinBtn{
+  background-color: var(--spinBtnColor); 
+  &:hover{
+    background-color: var(--spinBtnHover);
+    color: black;
+  }
+ }
+
+.reels{
+  display: flex; 
+  justify-content: space-evenly;
+  gap: 2rem;
+  border: 2px solid var(--grey);
+  width: 60%; 
+}
+
+.reel{
+  height: 200px;
+  width: 30%; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.reel img{
+  width: 70%; 
+  height: 70%;
+  object-fit: contain;
+}
+
+
+ footer {
+   text-align: center;
+   padding: 1rem;
+   margin-top: 1rem;
+
+   & p {
+     margin: 0.5rem;
+   }
+
+   & a {
+     color: var(--accentColor)
+   }
+
+ }
+
+ .willow{
+   background-image: url('../media/willowTree.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   border: 0;
+ }
+ 
+ .mediumTree{
+   background-image: url('../media/mediumTree.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ .pine{
+   background-image: url('../media/pine-tree.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   border: 0;
+ }
+ .birch{
+   background-image: url('../media/birch.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ .sapling{
+   background-image: url('../media/sapling.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ .seed{
+   background-image: url('../media/seed.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ .hidden{
+  display: none; 
+ }
+ 
+
+/* "birch",
+"pine",
+"sapling",
+"seed" */
