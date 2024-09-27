@@ -1,0 +1,175 @@
+/* Build a simple slot machine with minimum 5 items per reel and 3 reels - 
+user should be able to bet min or max and have their total update aka how much money they have won or lost.
+Min bet does $5 and Max bet does $50. They should start with $1000.
+Matches of the three wheels = a win just like a normal slot machine and they win 10x their bet */
+
+
+/* section{
+
+float: left; */
+
+/* } */
+
+body{
+
+
+    background-image: url("https://media.giphy.com/media/PhdC5X5qr6mzK/giphy.gif");
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.bigSec{
+    border: 3px solid brown;
+    height: 502px;
+    width:65%;
+    background-image: url("slot-machine-empty-fields-4467434.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin: 50px auto 0 auto;
+}
+
+/* .boxes{
+    padding: 44px 77px 62px 212px;
+} */
+
+/* .pic1{
+     size: 20px;
+
+} */
+
+h2{
+
+    color: black;
+}
+
+
+p{
+
+    background-image: url("https://media.giphy.com/media/PhdC5X5qr6mzK/giphy.gif");
+    background-repeat: round;
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 95%;
+    height: 345px;
+    border: 3px solid blue;  
+    background-position: center bottom; 
+    background-position: 0px -45px; 
+     */
+   
+}
+
+
+
+.box{
+
+    /* float: left;
+    margin: 8% 5% 0% 6%;
+    height: 190px;
+    width: 171px;
+ */
+}
+
+.mainContent {
+    width: 100%;
+}
+.container {
+    width: 850px;
+    margin: 37px 0px 0px -47px;
+    height: 214px;
+    position: relative;
+}
+
+
+.buttonContainer {
+    display: inline-block;
+    margin: 11% 3% 50% 6%;
+    height: 40px;
+    width: 84%;
+    position: relative;
+}
+
+.buttons {
+    /* margin-left: 100px; */
+}
+
+button {
+    width: 60px;
+    height: 40px;
+    font-size:large;
+    font-weight: 500;
+
+}
+
+.first, .second {
+    margin-right: 81px;
+}
+.first {
+    border: 2px solid darkgoldenrod;
+    margin-left: 109px;
+    height: 205px;
+    width: 171px;
+    background-color:rgb(47, 47, 206);
+    display: inline-block;
+    position: absolute;
+
+}
+.second{
+   
+    border: 2px solid darkcyan; 
+    /* margin: 4% 5% 0% 8%; */
+    height: 210px;
+    width: 171px;
+    background-color: yellow;
+    display: inline-block;
+    position: absolute;
+    right: 229px;
+}
+
+.third{
+
+    border: 2px solid rebeccapurple; 
+    /* margin: 4% 5% 0% 8%; */
+    height: 210px;
+    width: 171px;
+    background-color: green;
+    display: inline-block;
+    position: absolute;
+    right: 47px;
+}
+
+
+#pic1, #pic2, #pic3 {
+    width: 110px;
+    padding: 19%;
+}
+
+#pull{
+
+    position: absolute;
+    left: 327px;
+    background-color: lawngreen;
+    border: none;
+    
+}
+
+#fifty{
+
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    left: 601px;
+    background-color: rgba(41, 76, 233, 0.829);
+    border: none;
+}
+#five{
+
+    position: absolute;
+    left: 58px;
+    background-color: rgba(247, 106, 59);
+    border: none;
+}
+
+
