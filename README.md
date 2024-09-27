@@ -1,24 +1,11 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+This is a simple slot machine with two buttons and a total that updates on wins and loses. You will get a browser alert on every win...
 
-### Goal: Build a Simple Slot Machine
+********************Changes to be made*************************
+1. Build eye appealing UI
+2. Build rotation functionality on reels
+3. Allow for different bets to be posted and update total accordingly
+4. Implement SFX to get better UI experience.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
-
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![slot-machine](https://user-images.githubusercontent.com/89389822/137770647-0f5dde20-0f4d-465a-b4b2-8bfdb8da7da9.gif)

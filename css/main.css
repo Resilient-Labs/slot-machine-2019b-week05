@@ -1,0 +1,28 @@
+/* article
+main{
+  height: 27rem;
+  width: 75%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+section{
+  height: 24rem;
+  width: 33%;
+  border: 1px solid black;
+} */
+
+
+
+.reel{
+  float: left;
+  width: 33%;
+  /* margin-top: 15%; */
+  height: 18.75rem;
+  border: 1px solid black;
+  font-size: 2.5rem
+}
+
+
