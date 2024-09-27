@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: "Vibur", sans-serif;
+    background-color: #010a01;
+}
+
+
+
+p {
+    text-align: center;
+}
+
+#slots {
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+img {
+    width: 30%;
+    height: 275px;
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: #db3eb1;
+    background-blend-mode: multiply;
+    mix-blend-mode: lighten;
+
+    
+}
+
+#btns {
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+button {
+    color: #db3eb1;
+    border: 6px solid #db3eb1;
+    border-radius:15px;
+    padding: 15px 25px;
+    font-size: 30px;
+    font-family: tahoma;
+    letter-spacing:5px;
+    cursor: pointer;
+    font-weight: bold;
+    filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
+    transition: .5s;
+    text-shadow:
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+  }
+  
+  .button:hover {
+    color: black;
+    background-color: #db3eb1;
+    filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
+  }
+
+  /* https://www.lenastanley.com/2022/01/css-neon-button-neon-effect.html */
+  
+
+ /* https://css-tricks.com/how-to-create-neon-text-with-css/ */
+
+ .neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+  }
+
+  h1, h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 6.5rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;     
+  }
+ 
+    
+  h2, #status {
+      font-size: 1.8rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;
+      color: white;
+  }
+
+  #status {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(174, 7, 7);
+}
+  
+  .container {
+    margin-top: 5vh;
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  
+  }
+}
+  
+  

@@ -1,24 +1,21 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Resilient Slot Machine
+Todo List allows the user to log their 'todos' and mark off todos for clearing upon completetion. Enjoy a nice 
 
-### Goal: Build a Simple Slot Machine
+**Link to project:** https://cydvilla.github.io/todo-list/
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![alt tag](slot.gif)
 
-### How to submit your code for review:
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Utilziing JavaScript, Slot Machine employs the use of four different functions to place a 'min' bet of $5, a 'max' bet of $10, a truly remarkable 'All' bet of the player's current money and a function using Math.random() & Math.floor() methods to get reel images at random! Go on and test your luck!
+
+<!-- ## Optimizations
+*(optional)*
+
+You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews! -->
+
+## Lessons Learned:
+
+Going overboard with CSS animations CAN and WILL cause extreme slowdown to your computer. 
