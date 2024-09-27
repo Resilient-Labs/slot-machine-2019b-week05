@@ -5,18 +5,40 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 		<title>Slot Machine</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="/Users/rosy/Desktop/Resilient coders/Week 5/Slot Machine/slot-machine-2019-week05/css /style.css">
 	</head>
 	<body>
-		<div class="slot">
-			<div class="reel"></div>
-			<div class="reel"></div>
-			<div class="reel"></div>
-		</div>
-		
-		<img class="limg" src="slotreel.webp">
-		<!--Image from codepen website-->
+        <h1>Rosy's Awesome Slot Machine</h1>
 
-		<script type="text/javascript" src="slot-machine-2019-week05/js /main.js"></script>
+		<section class="total">
+			<h2>Your total cash is:</h2>
+			<span id="total"></span>
+	   </section>
+
+		<section class="main">
+	       <div class="slot">
+	         <div class="reel">
+				 <img  class="icon" src="slotreel.webp">
+			 </div>
+	         <div class="reel">
+				 <img  class="icon" src="slotreel.webp">
+			 </div>
+	         <div class="reel">
+				 <img  class="icon" src="slotreel.webp">
+			 </div>
+	       </div>
+		   <img class="limg" src="slotreel.webp">
+	    	<!--Image from codepen website-->
+	  </section>
+	
+	  <section class="bets">
+		<button id="Bet 10">Bet $20</button>
+		<button id="Bet 50">Bet $50</button>
+	  </section>		
+
+	 <script src="slot-machine-2019-week05/js /main.js"></script>
 	</body>
 </html>
