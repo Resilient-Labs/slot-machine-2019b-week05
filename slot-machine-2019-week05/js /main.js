@@ -23,7 +23,6 @@ const spinSlot=(betAmount)=>{
     const reel1Img=document.getElementById("reel1").getElementsByTagName('img');
     const reel2Img=document.getElementById("reel2").getElementsByTagName('img');
     const reel3Img=document.getElementById("reel3").getElementsByTagName('img');
-    const result=document.getElementById("result");
     const balanceDisplay=document.getElementById("balance");
 
     //Spin the reels
