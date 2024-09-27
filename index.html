@@ -15,28 +15,40 @@
 
 		<section class="total">
 			<h2>Your total cash is:</h2>
-			<span id="total"></span>
+			<span id="balance">$500</span>
 	   </section>
 
 		<section class="main">
 	       <div class="slot">
-	         <div class="reel">
-				 <img  class="icon" src="slotreel.webp">
+	            <div id="reel1" class="reel1">
+		      	 <img  id="cherry" src="cherry.webp" alt="cherry">
+				 <img  id="grape" src="grape.webp" alt="grape"> 
+				 <img  id="pear" src="pear.webp" alt="pear">
+				 <img  id="plum" src="plum.webp" alt="plum"> 
+				 <img  id="watermelon" src="Watermelon.webp" alt="watermelon">
+			   </div>
+		       <div id="reel2" class="reel2">
+				 <img  id="cherry" src="cherry.webp">
+			     <img  id="grape" src="grape.webp">
+			     <img  id="pear" src="pear.webp">
+				 <img  id="plum" src="plum.webp" alt="plum"> 
+				 <img  id="watermelon" src="Watermelon.webp" alt="watermelon">
+			  </div>
+			  <div id="reel3" class="reel3">
+				  <img  id="cherry" src="cherry.webp">
+			      <img  id="grape" src="grape.webp">
+				  <img  id="pear" src="pear.webp">
+				  <img  id="plum" src="plum.webp" alt="plum"> 
+				 <img  id="watermelon" src="Watermelon.webp" alt="watermelon">
 			 </div>
-	         <div class="reel">
-				 <img  class="icon" src="slotreel.webp">
-			 </div>
-	         <div class="reel">
-				 <img  class="icon" src="slotreel.webp">
-			 </div>
+			  <div id="result"></div>
 	       </div>
 		   <img class="limg" src="slotreel.webp">
-	    	<!--Image from codepen website-->
 	  </section>
 	
 	  <section class="bets">
-		<button id="Bet 10">Bet $20</button>
-		<button id="Bet 50">Bet $50</button>
+		<button class="button" id="Bet20">Bet $20</button>
+		<button class="button" id="Bet50">Bet $50</button>
 	  </section>		
 
 	 <script src="slot-machine-2019-week05/js /main.js"></script>

@@ -42,25 +42,27 @@ h1{
   font-size: 50px;
 }
 
-.icon{
-  width:79px;
-  height:711px;
-}
-
 .slot{
   border:2px solid black;
   width: 277px;
   height: 239px;
-  position: relative;
+  background:rgb(0, 63, 0);
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
-.reel{
-  border:1px solid black;
-  width:81px;
-  max-height: 237px;
-  overflow: hidden;
+.reel1, .reel2, .reel3{
+  width:79px;
+  height: 79px;
+  display:flex;
+  flex-direction: column;
+}
+
+.reel1,.reel2,.reel3>img{
+  width:75px;
+  height: 79px;
+  position:relative;
 }
 
 .bets{
@@ -90,10 +92,20 @@ button{
   font-size: 25px;
 }
 
-#total{
-  border:3 px dotted black;
+#balance{
+  border:4px dotted black;
   width:20%;
   height:50px
+}
+
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'special elite';
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(2, 87, 2)
 }
 
 /******************************************
