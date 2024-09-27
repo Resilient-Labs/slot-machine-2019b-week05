@@ -1,0 +1,292 @@
+/* body {
+    background-image: url('slot-machine.png');
+    background-size: cover;
+    height:1000px;
+} */
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #b60a0a;
+    
+}
+
+header h3  {
+    font-size: 6rem;
+    color: rgb(241,216,164);
+    width: 100%;
+    text-align: center;
+}
+header img {
+    width: 100%;
+}
+
+
+section.info {
+    width:20%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(241,216,164);
+    padding: 2%;    
+}
+
+section.slots {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    float: left;
+}
+
+section.slots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slots img {
+    width: 33.33%;
+}
+
+section.bid-buttons {
+    width:100%; 
+    display: flex;
+    justify-content: center;
+}
+.bid-buttons a {
+    border: 1px solid gold;
+    padding: 1.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background: lightgoldenrodyellow;
+    border-radius: 5%;
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+span {
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(241,216,164);
+
+}
+
+@media screen and (max-width: 1430px){
+    section.bid-buttons {
+        width:100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    a#minBid{
+        margin-bottom: 5%;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+    header h3  {
+        font-size: 5.2rem;
+        color: rgb(241,216,164);
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
+    section.bid-buttons {
+        width:100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 2.3rem;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+
+    .bid-buttons a {
+        border: 1px solid gold;
+        padding: 1.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background: lightgoldenrodyellow;
+        border-radius: 5%;
+        width: 50%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    header h3  {
+        font-size: 4.8rem;
+        color: rgb(241,216,164);
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1110px){
+    section.bid-buttons {
+        width:100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 2.1rem;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+
+    .bid-buttons a {
+        border: 1px solid gold;
+        padding: 1.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background: lightgoldenrodyellow;
+        border-radius: 5%;
+        width: 60%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    
+    span {
+        width: 100%;
+        text-align: center;
+        font-size: 3.5rem;
+        color: rgb(241,216,164);
+    
+    }
+    header h3  {
+        font-size: 4.3rem;
+        color: rgb(241,216,164);
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    section.bid-buttons {
+        width:100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+
+    .bid-buttons a {
+        border: 1px solid gold;
+        padding: 1.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background: lightgoldenrodyellow;
+        border-radius: 5%;
+        width: 70%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    
+    span {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(241,216,164);
+    
+    }
+    header h3  {
+        font-size: 4rem;
+        color: rgb(241,216,164);
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 910px){
+    section.info {
+        width: 100%;
+        flex-direction: row;
+    }
+    
+    section.slots {
+        width:100%;
+    }
+
+    section.bids {
+        width: 50%;
+        float: left;
+    }
+
+    section.bank {
+        width: 50%;
+        float:left;
+    }
+    section.bid-buttons {
+        width:100%; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+
+    .bid-buttons a {
+        border: 1px solid gold;
+        padding: 1.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background: lightgoldenrodyellow;
+        border-radius: 5%;
+        width: 50%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    
+    .bank span {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(241,216,164);
+    
+    }
+    header h3  {
+        font-size: 4rem;
+        color: rgb(241,216,164);
+        width: 100%;
+        text-align: center;
+    }
+}
