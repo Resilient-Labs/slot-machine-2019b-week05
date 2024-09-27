@@ -1,0 +1,86 @@
+*{
+  text-align: -webkit-center;
+}
+
+body{
+  margin: 0;
+  min-width: 600px;
+  background: rgba(192, 229, 237, 0.9);
+  background-image: url("https://i.pinimg.com/originals/22/5c/81/225c812bf19cc08df6b84c066b8c842b.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#machine{
+  border: 2px solid black;
+  height: 600px;
+  width: 70%;
+  margin-top: 5%;
+  background-color: rgba(253, 88, 88, 0.9);
+
+  -webkit-box-shadow: 11px 11px 33px 10px rgba(133,255,133,1);
+  -moz-box-shadow: 11px 11px 33px 10px rgba(133,255,133,1);
+  box-shadow: 11px 11px 33px 10px rgba(133,255,133,1);
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  border: 2px solid black;
+  height: 200px;
+  width: 31.33%;
+  display: inline-block;
+  background-color: rgba(133, 210, 255, 0.8);
+}
+
+#inputs{
+  width: 100%;
+  margin-top: 10%;
+}
+
+button{ /*stackoverflow*/
+  display: block;
+  margin-top: 2%;
+
+  box-shadow:inset 0px 0px 23px -2px #fac0cf;
+  background:linear-gradient(to bottom, #ff7893 5%,   #d725fa 100%);
+  background-color:#ff7893;
+  border-radius:34px;
+  border:2px solid #e551ed;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:19px;
+  font-weight:bold;
+  padding:17px 30px;
+  text-decoration:none;
+  text-shadow:-11px 12px 2px #cc54cc;
+  outline:none;
+}
+
+    button:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.wallet{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 21px;
+  letter-spacing: -0.4px;
+  word-spacing: -4px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+/*Reels*/
+img{
+  height: 100px;
+  width: 50%;
+  margin-top: 15%;
+}
