@@ -1,9 +1,3 @@
-const cherry=document.getElementById("cherry")
-const grape=document.getElementById("grape")
-const pear=document.getElementById("pear")
-const plum=document.getElementById("plum")
-const watermelon=document.getElementById("watermelon")
-
 //Reel symbols
 const reelSymbols=["cherry.webp","grape.webp","pear.webp","plum.webp","Watermelon.webp"];
 //balance
