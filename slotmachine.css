@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(pat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#box_a,
+#box_b,
+#box_c {
+  border: 2px solid black;
+  height: 200px;
+  width: 25%;
+  margin: 30px;
+  float: left;
+  background-image: url(pattern.gif);
+  background-size: cover;
+}
+button {
+  margin: 10px;
+  float: none;
+  width: 30%;
+  height: 30px;
+  margin-left: 70px;
+}
+.container {
+  /* border: 2px solid orange; */
+  border-radius: 10%;
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 288px;
+  background-color: rgb(245, 233, 209);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container #betMoney {
+  color: red;
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  margin-left: 50px;
+}
