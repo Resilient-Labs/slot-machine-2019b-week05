@@ -1,0 +1,123 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-box {
+  height: 400px;
+  min-width: 300px;
+  border: 5px solid black;
+  border-radius: 5px;
+  display: flex;
+}
+
+.reel {
+  width: 33.3333%;
+  border: 1px solid black;
+}
+
+.mini-box {
+  width: 100%;
+  height: 20%;
+  border: 1px solid rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner-border {
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+}
+
+img {
+  height: 80%;
+}
+
+.lateral {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+div input {
+  border: 2px solid black;
+  text-align: center;
+}
+
+div p {
+  margin-top: 10px;
+  border: 2px solid black;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+div p:hover {
+  color: red;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+div p:active {
+  color: goldenrod;
+  border: 2px solid goldenrod;
+  cursor: pointer;
+}
+
+div h2 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+#msg {
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+}

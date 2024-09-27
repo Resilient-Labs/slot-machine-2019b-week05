@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a slot machine">
+	<meta name="keywords" content="gamble, slot machine, luck">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Slot Machine</title>
+
+	<!-- external CSS link -->
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main>
+		<div class="lateral">
+			<h1>Slot Machine</h1>
+			<input type="number">
+			<p id="inputMoney">INPUT MONEY</p>
+			<h2>Total Credit: <span id="totalCredit"></span>$</h2>
+			<h3 id="msg"></h3>
+		</div>
+		<div class="main-box">
+			<div class="reel">
+				<div class="mini-box"><img src="media/clover.png" alt="" id="extra1Reel1"></div>
+				<div class="mini-box"><img src="media/cherry.png" alt="" id="extra2Reel1"></div>
+				<div class="mini-box winner-border"><img src="media/diamond.png" alt="" id="winnerBox1"></div>
+				<div class="mini-box"><img src="media/spade.png" alt="" id="extra3Reel1"></div>
+				<div class="mini-box"><img src="media/seven.png" alt="" id="extra4Reel1"></div>
+			</div>
+			<div class="reel">
+				<div class="mini-box"><img src="media/clover.png" alt="" id="extra1Reel2"></div>
+				<div class="mini-box"><img src="media/cherry.png" alt="" id="extra2Reel2"></div>
+				<div class="mini-box winner-border"><img src="media/diamond.png" alt="" id="winnerBox2"></div>
+				<div class="mini-box"><img src="media/spade.png" alt="" id="extra3Reel2"></div>
+				<div class="mini-box"><img src="media/seven.png" alt="" id="extra4Reel2"></div>
+			</div>
+			<div class="reel">
+				<div class="mini-box"><img src="media/clover.png" alt="" id="extra1Reel3"></div>
+				<div class="mini-box"><img src="media/cherry.png" alt="" id="extra2Reel3"></div>
+				<div class="mini-box winner-border"><img src="media/diamond.png" alt="" id="winnerBox3"></div>
+				<div class="mini-box"><img src="media/spade.png" alt="" id="extra3Reel3"></div>
+				<div class="mini-box"><img src="media/seven.png" alt="" id="extra4Reel3"></div>
+			</div>
+		</div>
+		<div class="lateral">
+			<p id="bet1">MIN BET 1$</p>
+			<p id="bet5">MAX BET 5$</p>
+		</div>
+	</main>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
