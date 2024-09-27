@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slot Machine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans:ital,wght@1,700&family=Bungee+Inline&display=swap" rel="stylesheet">
+<link rel='stylesheet' href='css/style.css'>
+
+</head>
+<body>
+<!-- Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update aka how much money they have won or lost. Min bet does $5 and Max bet does $50. They should start with $1000. Matches of the three wheels = a win just like a normal slot machine and they win 10x their bet -->
+
+  <section>
+    <h1>So you want to play the Slot Machine?</h1>
+    <p>How much are you willing to lose?</p>
+    <form>
+      <label for="betAmount">Bet Amount</label>
+      <input type ="text" id="betAmount" placeholder="Place either $5 or $50">
+    </form> 
+    <button type="button" id="betButton">Go Ahead and Spin</button>
+    <ul id="list">
+     
+    </ul>
+    <span id="winOrLose"></span>
+    <p class="total">Current Total = $<span id="totalMoney"></span></p>
+  </section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

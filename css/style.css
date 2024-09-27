@@ -1,0 +1,68 @@
+body{
+  text-align: center;
+  background-image: url('casino.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:white;
+  font-family:'Architects Daughter', cursive; ;
+  margin-top: 8%;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  width:fit-content;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+#result{
+  margin-top: 1%;
+}
+
+#winOrLose{
+  margin-top: 1%;
+
+}
+
+#betAmount{
+  width:fit-content;
+}
+
+h1{
+  font-family: 'Architects Daughter', cursive;
+}
+
+#totalMoney{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#winOrLose{
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#result{
+  font-family: 'Bungee Inline', cursive;
+  
+}
+
+#list{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.listgroup{
+ margin-right: 4%;
+ font-size: 20px;
+}
+
+.total{
+  font-size: 20px;
+}
