@@ -102,7 +102,7 @@ function checkResult(numbers) {
         resultElement.textContent = "You lose!";
     }
 
-    playersFundsElement.textContent = `$${playerFunds}`;
+    playersFundsElement.textContent = `Current Balance: $${playerFunds}`;
 
     if (playerFunds < 5) {
         resultElement.textContent = "Your balance is too low!";
