@@ -46,17 +46,17 @@ h3 {
 }
 
 .slot {
-  width: 80px;               /* Increased width */
-  height: 80px;             /* Increased height */
-  border: 3px solid #ff69b4; /* Keep the border */
-  border-radius: 10px;      /* Rounded corners */
-  margin: 0 10px;           /* Margin between slots */
-  display: flex;            /* Flexbox for centering */
-  justify-content: center;  /* Center the content */
-  align-items: center;      /* Center the content */
-  font-size: 3em;           /* Increase font size */
-  background-color: #ffffff; /* Background color */
-  transition: background-color 0.3s; /* Transition for hover */
+  width: 80px;               
+  height: 80px;            
+  border: 3px solid #ff69b4;
+  border-radius: 10px;     
+  margin: 0 10px;          
+  display: flex;            
+  justify-content: center;  
+  align-items: center;      
+  font-size: 3em;          
+  background-color: #ffffff; 
+  transition: background-color 0.3s; 
 }
 
 button {
@@ -76,7 +76,7 @@ button:hover {
 }
 
 button.active {
-  background-color: #dc6196; /* Deep pink when active */
+  background-color: #dc6196; 
 }
 
 #result {
