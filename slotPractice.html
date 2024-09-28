@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet"> <!-- google fonts -->
+
+
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="slotPractice.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>💰TRY YOUR LUCK💰</h1> <!--money bag character from compart.com-->
+
+        <div class="reels">
+            <div id="reel1" class="reel">¿</div>
+            <div id="reel2" class="reel">?</div>
+            <div id="reel3" class="reel">¿</div>
+        </div>
+
+        <div class="buttons">
+            <button onclick="spin('low')">MIN BET $5</button>
+            <button onclick="spin('high')">MAX BET $100</button>
+        </div>
+
+        <div id="balance">Balance: $1000</div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="slotPractice.js"></script> 
+</body>
+</html>
