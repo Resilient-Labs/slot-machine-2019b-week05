@@ -1,0 +1,81 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family: "Chela One", system-ui;
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url(../img/poker-table-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* section {
+  border: 5px solid black;
+} */
+
+.introSection {
+  text-align: center;
+}
+.introSection > p {
+  font-size: 28px;
+}
+.introSection > h1 {
+  font-size: 36px;
+}
+
+.slotMachine {
+  float: left;
+  width: 100%;
+  height: 500px;
+}
+.reel1,
+.reel2,
+.reel3 {
+  width: 15%;
+  height: 200px;
+  float: left;
+  margin: 20% 5%;
+}
+.reel1 {
+  margin-left: 23%;
+}
+#myInputs {
+  float: left;
+  width: 100%;
+}
+
+#secondBetButton{
+  margin: 2% 15%;
+}
+#firstBetButton {
+  margin: 2% 25%;
+}
+#reel1Result,
+#reel2Result,
+#reel3Result {
+  font-size: 100px;
+  width: 50%;
+}
+
+#gameRestart {
+  margin: 0 47%;
+}
+
+#totalAmountSection > p {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
