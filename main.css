@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 2%;
+    background: linear-gradient(rgb(228, 103, 124), rgb(127, 217, 231), rgb(203, 78, 203));
+}
+h1{
+    text-align: center;
+}
+.reel{
+    height: 275px;
+    width: 30%;
+    margin-left: 14px;
+    margin-top: 10px;
+    background-repeat: repeat-y; 
+    background-position: 0 0;
+    border: 1px solid black;
+    border-radius: 2%;
+    background: white;
+}
+.buttons{
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin-left: 300px;
+    
+}
+#minbet, #maxbet{
+    height: 68px;
+    width: 12%;
+    margin: 10px 30px 0 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#maxbet:active{
+    transform: translateY(2px);
+}
+#minbet:active{
+    transform: translateY(2px);
+}
+
+
