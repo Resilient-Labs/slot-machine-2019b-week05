@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.bigcontainer{
+    width: 400px;
+    height: 500px;
+    background: rgb(251, 237, 164);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 20px;
+    color: rgb(251, 89, 192);
+    text-align: center;
+}
+.slots{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+#max, #min{
+        height: 35px;
+        width: 30%;
+        border: none;
+        color: rgb(251, 89, 192);
+        text-align: center;
+        font-size: 15px;
+        background-color: white;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        cursor: pointer;
+}
+.slot{
+    font-size: 20px;
+    padding-right: 5px;
+    text-align: center;
+    border: 2px solid white;
+}
