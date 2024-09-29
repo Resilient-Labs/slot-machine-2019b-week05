@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Your description goes here">
+  <meta name="keywords" content="one, two, three">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simple Slot Machine</title>
+  
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Press Your Luck!</h1>
+
+  <!-- Reels Section -->
+  <section class="reels">
+    <div class="reel1">
+      <div class="item">+</div>
+      <div class="item">-</div>
+      <div class="item">*</div>
+      <div class="item">/</div>
+      <div class="item">%</div>
+    </div>
+
+    <div class="reel2">
+      <div class="item">+</div>
+      <div class="item">-</div>
+      <div class="item">*</div>
+      <div class="item">/</div>
+      <div class="item">%</div>
+    </div>
+
+    <div class="reel3">
+      <div class="item">+</div>
+      <div class="item">-</div>
+      <div class="item">*</div>
+      <div class="item">/</div>
+      <div class="item">%</div>
+    </div>
+  </section>
+
+  <!-- Betting Section -->
+  <section class="controls">
+    <label for="betAmount">Bet Amount:</label>
+    <input type="number" id="betAmount" min="1" max="100" value="10">
+    <br>
+
+    <label for="totalAmount">Total Balance:</label>
+    <input type="number" id="totalAmount" value="100" readonly>
+    <br>
+
+    <button id="spinButton">Spin!</button>
+  </section>
+
+  <!-- Link to JavaScript -->
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
