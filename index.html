@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Slot Machine Time</title>
+
+		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Slot Machine Time</h1>
+		</header>
+		<div class="wrapper">
+			<section class="intro">
+				<h2>Welcome to the big bad slot machine.</h2>
+				<p>Try your luck out. Your options are:</p>
+				<ul>
+					<li>Betting the minimum (5 credits)</li>
+					<li>Betting the maximum (50 credits)</li>
+				</ul>
+			</section>
+
+			<!-- display slot machine -->
+			<div class="slot-machine">
+				<section class="slot-single" id="slot1">
+					<img class="hidden" src="img/cherries.png">
+					<img class="hidden" src="img/grapes.png">
+					<img class="hidden" src="img/orange.png">
+					<img class="hidden" src="img/seven.png">
+					<img class="hidden" src="img/watermelon.png">
+				</section>
+				<section class="slot-single" id="slot2">
+					<img class="hidden" src="img/cherries.png">
+					<img class="hidden" src="img/grapes.png">
+					<img class="hidden" src="img/orange.png">
+					<img class="hidden" src="img/seven.png">
+					<img class="hidden" src="img/watermelon.png">
+				</section>
+				<section class="slot-single" id="slot3">
+					<img class="hidden" src="img/cherries.png">
+					<img class="hidden" src="img/grapes.png">
+					<img class="hidden" src="img/orange.png">
+					<img class="hidden" src="img/seven.png">
+					<img class="hidden" src="img/watermelon.png">
+				</section>
+			</div>
+			<section class="slots-buttons">
+				<input type="button" value="MIN bet">
+				<input type="button" value="MAX bet">
+			</section>
+			<section class="slots-text">
+				<h2>Result: <span id="game-result"></span></h2> <!-- show "Winner" or "Loser?" of the current bet -->
+				<h2>Credits: <span id="credit-count"></span></h2> <!-- show number of credits, starting with 1000 -->
+			</section>
+		</div>
+	
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
