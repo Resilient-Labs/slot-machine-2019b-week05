@@ -1,0 +1,147 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  color: white;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(to bottom right, rgb(0, 0, 130), rgb(113, 0, 0));
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 2%;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intro ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  margin: 20px auto;
+  width: 90%;
+  padding: 2%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.slot-single {
+  width: 30%;
+  height: 100%;
+  background: white;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Slot Machine Images */
+.slot-single img {
+  width: 80%;
+  height: auto;
+}
+
+/* Buttons Styling */
+.slots-buttons {
+  margin: 20px;
+}
+
+.slots-buttons input[type="button"] {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: rgb(86, 86, 255);
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.slots-buttons input[type="button"]:hover {
+  background-color: red;
+}
+
+/* Game Result and Credits Section */
+.slots-text {
+  margin: 20px;
+}
+
+.slots-text h2 {
+  font-size: 1.5em;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#game-result {
+  color: rgb(255, 255, 255);
+}
+
+#credit-count {
+  color: red;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.hidden {
+  display: none;
+}
+
+.roboto-slab-regular {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab-bold {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-slab-black {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
