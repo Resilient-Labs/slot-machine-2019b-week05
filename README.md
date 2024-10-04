@@ -1,24 +1,16 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+## Marqae's Money Machine
 
-### Goal: Build a Simple Slot Machine
+Take your chances with my money machine! Don't worry you do not have to have any money, in fact You're going to start out with 500 big ones!!
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+**Link to project:** https://marqaesmoneymachine.netlify.app/
 
-### How to submit your code for review:
+![alt tag](https://i.imgur.com/qwjL03c.png)
+## How It's Made:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Tech used:** HTML, CSS, Javascript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+This project was made while I as learning Javascript! It was pretty fun to create and more fun to engage with, go ahead! Take a spin!
+
+## Lessons Learned:
+
+Functions! Functions! Functions!
