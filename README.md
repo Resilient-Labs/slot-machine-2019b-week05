@@ -2,7 +2,7 @@
 
 ### Goal: Build a Simple Slot Machine
 
-![alt text](slot-machine/slot.png)
+![alt text](slot.png)
 
 Link to website : slot-machine123.netlify.app
 Tech used: HTML, CSS, JavaScript
