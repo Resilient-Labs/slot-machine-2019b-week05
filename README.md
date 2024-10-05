@@ -1,24 +1,39 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Simple Slot Machine Game
 
-### Goal: Build a Simple Slot Machine
+ This is a simple slot machine game. It is made of three individual viewing fields that display one at a time. There are 3 buttons to clikc, one will place a $5 bet, one will place a $50 bet and the third called "play now!' will start the game. Upon activating the 'Play now!' button will generate a random output of numbers. if the match then players balance will increase. if they do not match, players balance will decrease.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
 
-### How to submit your code for review:
+## Table of Contents
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+## Features
+
+- This simple game features only areas to view results and players cash balance and buttons to play, making it very user friendly.
+- there are buttons to switch between dollar bet value so the player has options.
+- The balance that the player views is updated by the use of if/else if statements.
+- I added a special bonus jackpot if statement that if the random numbers displayed ==== 333 the player gets an extra $2000 added to their balance.
+- I added in failsafe that stops the game if the players balance falls below $5.. and a message is returned on the screen letting the player know they need to add more funds.
+
+## Installation
+
+Step-by-step instructions on how to install your project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/NagiydE/slot-machine-2024-week05.git
+2. Navigate to project directory:
+cd slot-machine-2024-week05
+3.Open the index.html file in your browser to view app.
+
+## Usage 
+1. Open the app in your browser.
+2. choose your bet amount.
+3. click 'Play Now!' 
+4. watch the results on the screen to see if you have won or lost.
+5. keep playing until you go broke.
