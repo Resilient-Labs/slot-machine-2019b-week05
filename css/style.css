@@ -1,0 +1,90 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #accbe6;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  color: #6a1941;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+#slotMachine {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.slot {
+  width: 80px;               
+  height: 80px;            
+  border: 3px solid #ff69b4;
+  border-radius: 10px;     
+  margin: 0 10px;          
+  display: flex;            
+  justify-content: center;  
+  align-items: center;      
+  font-size: 3em;          
+  background-color: #ffffff; 
+  transition: background-color 0.3s; 
+}
+
+button {
+  background-color: #7d2652;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+button:hover {
+  background-color: #ff1493; 
+}
+
+button.active {
+  background-color: #dc6196; 
+}
+
+#result {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
