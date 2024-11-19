@@ -1,6 +1,6 @@
 Project
 
-![Thumbnail](css/assets/coverImage.png)
+![Thumbnail](slotMachine/css/assets/coverImage.png)
 
 Link to project: 
 
