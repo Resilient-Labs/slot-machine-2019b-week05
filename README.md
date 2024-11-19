@@ -1,24 +1,22 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Snoopy Slot Machine Project
 
-### Goal: Build a Simple Slot Machine
+![Thumbnail](slotMachine/css/assets/coverImage.png)
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+Link to project: https://sillyslotmachine.netlify.app/
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+Tech used: HTML, CSS, JS
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+A simple slot machine application that starts the user off with a set amount of money in their bank. Users can click a button to either wager $50 or $500. If they win, they receive 5x their wager. If they lose, they lose their wager. 
+
+The application utilizes Math.random to pull one of five images from an array of images. If the image matches in all three slots, the user wins!
+
+## Optimizations
+
+I went ahead and made one wager function that accepts an argument - by doing this, I was able to avoid writing redundant code and recall the same function for the different wager amounts.
+
+## Lessons Learned
+
+I learned the importance of having unique functions for each specific action when making this application. If something broke during implementation, I was able to go back and pinpoint the exact funtion that caused the application to break, since all of the moving parts were encapsulated into their own unique functions.
+

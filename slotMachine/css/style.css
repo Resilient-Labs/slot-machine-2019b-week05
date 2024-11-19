@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%;
+}
+
+html * {
+  font-family: 'Pangolin', 'Helvetica', sans-serif;
+}
+
+body {
+  font-size: 3rem;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  height: 500px;
+  background-image: url('assets/iceCreamSnoopy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section {
+  height: 400px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+li,
+img {
+  height: 100px;
+  width: 125px;
+  background-color: rgba(40, 150, 234, 0.75);
+}
+
+h1 {
+  margin-top: 5%;
+}
+
+h1,
+h2,
+p {
+  background-color: rgba(0,0,0, 1);
+  color: white;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 424px) {
+  body {
+    height: 700px;
+  }
+  ul {
+    width: 130px;
+  }
+}
