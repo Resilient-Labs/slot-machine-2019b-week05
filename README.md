@@ -1,6 +1,6 @@
 Project
 
-![css/assets/coverImage.png]()
+![Thumbnail](css/assets/coverImage.png)
 
 Link to project: 
 
