@@ -1,0 +1,113 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.limg{
+  position: fixed;
+  height: 100vh;
+  width: auto;
+  left: 0;
+  top:0
+}
+
+html,body{
+  height:100%
+}
+
+body{
+  background: rgb(224, 239, 58);
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:30px;
+  font-family: 'special elite';
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.slot{
+  border:2px solid black;
+  width: 277px;
+  height: 239px;
+  background:rgb(0, 63, 0);
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.reel1, .reel2, .reel3{
+  width:79px;
+  height: 79px;
+  display:flex;
+  flex-direction: column;
+}
+
+.reel1,.reel2,.reel3>img{
+  width:75px;
+  height: 79px;
+  position:relative;
+}
+
+.bets{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  margin-top:40px;
+}
+
+button{
+  font-family: 'special elite';
+  font-weight: bold;
+  font-size: 20px;
+  color:white;
+  background: red;
+  height:40px;
+  width:10%
+}
+
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:40px;
+  font-family: 'special elite';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#balance{
+  border:4px dotted black;
+  width:20%;
+  height:50px
+}
+
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'special elite';
+  font-weight: bold;
+  font-size: 30px;
+  color:rgb(2, 87, 2)
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
