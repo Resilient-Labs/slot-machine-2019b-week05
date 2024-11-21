@@ -1,24 +1,31 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# Slot Machine
+[Click To View](https://slotmachinezaria.netlify.app)
 
-### Goal: Build a Simple Slot Machine
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+# Description 
 
-### How to submit your code for review:
+Step right up and test your luck with Zaria's Slot Machine! Spin the reels and see if fortune is on your side. With a fun and vibrant design, this virtual slot machine offers endless entertainment—no coins required! Simply click to spin, and watch the symbols align for a chance to win. Perfect for casual gamers looking to enjoy a classic slot experience anytime, anywhere. Try your luck now with Zaria's Slot Machine!
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+    
+# Languages Used
+ - Javascript
+ - CSS
+ - HTML5
+
+
+# Technologies Used
+  ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+  ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+  ![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+  ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+  ![Vim](https://img.shields.io/badge/-Vim-05122A?style=flat&logo=vim)
+
+  
+
+
+# Next Steps
+
+- [:x:] a cleaner design and flow of the site
+- [:x:] animations for slots
+- [:x:] sound plays as you play the game

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Slot Machine</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <h1>Slot Machine</h1>
+
+  <div class="balance">
+      <p>Total Balance: $<span id="balance">0</span></p>
+  </div>
+
+  <div class="controls">
+      <label for="bet">Bet Amount (1-5): </label>
+      <input type="number" id="bet" min="1" max="5" value="1">
+      <button onclick="spin()">Spin!</button>
+  </div>
+
+  <div class="slots">
+      <div class="slot" id="slot1">🍒</div>
+      <div class="slot" id="slot2">🍋</div>
+      <div class="slot" id="slot3">🍊</div>
+  </div>
+
+  <div class="message" id="message"></div>
+
+  <div class="initial-balance">
+      <label for="initialAmount">Enter Initial Amount: </label>
+      <input type="number" id="initialAmount" value="0">
+      <button onclick="setInitialBalance()">Set Balance</button>
+  </div>
+
+</div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
