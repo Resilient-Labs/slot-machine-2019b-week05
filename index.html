@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is where your description goes">
+	<meta name="keywords" content="one, two, three">
+
+	<title>PokerCard Roulette</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section class="introSection">
+		<h1>PokerCard Roulette</h1>
+		<p>Hit the button to <em>play</em> the game.</p>
+		<p>Match three of the same to <em>win</em> the game.</p>
+	</section>
+
+	<section class="slotMachine">
+		<section class="reel1">
+			<div id="reel1Result">
+			</div>
+		</section>
+		<section class="reel2">
+			<div id="reel2Result">
+			</div>
+		</section>
+		<section class="reel3">
+			<div id="reel3Result">
+			</div>
+		</section>
+	</section>
+
+	<!-- three reels / 5 each -->
+	<input type="button" value="BET $5" id="firstBetButton">
+	<input type="button" value="BET $500" id="secondBetButton">
+	</section>
+	<section id="totalAmountSection">
+		<p>Total Winnings: <span id="placeToPutTotalAmount"></span></p>
+		<p><span id="placeToPutPlayerMessage"></span></p>
+		<input type="button" name="gameRestart" id="gameRestart" value="MONEY UP!">
+	</section>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
