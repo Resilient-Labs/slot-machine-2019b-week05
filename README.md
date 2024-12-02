@@ -1,24 +1,14 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
-
-### Goal: Build a Simple Slot Machine
-
+# 🎰 Slot Machine
 Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
 
-### How to submit your code for review:
+![Slot Machine](https://github.com/user-attachments/assets/e122121c-5a67-4898-92f7-4e5a4e00dc85)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
+Slot Machine is built using the following technologies:
+- **JavaScript (JS)**: Employed for client-side functionality.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+Three random numbers between 1 and 5 are displayed. If none match the user loses their bet, if two match the user gains 2x their bet, if all three match the user wins 10 times their bet.
+
+## What I Learned
+- Using Math functions to get random integers between 1 and 5 (inclusive)
+- Writing conditions to identify if there are matches and updating the total appropriately
